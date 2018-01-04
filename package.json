@@ -1,0 +1,24 @@
+{
+  "name": "learningjs",
+  "version": "1.0.0",
+  "description": "Lessons of JS",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BidemiYemisi/learningJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BidemiYemisi/learningJS/issues"
+  },
+  "homepage": "https://github.com/BidemiYemisi/learningJS#readme"
+}
