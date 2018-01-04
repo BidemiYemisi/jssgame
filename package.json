@@ -2,14 +2,15 @@
   "name": "learningjs",
   "version": "1.0.0",
   "description": "Lessons of JS",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
-    "jquery": "^3.2.1",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
