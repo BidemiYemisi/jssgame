@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <h1> Hello</h1>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>JS Game</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,11 +19,72 @@
     <![endif]-->
   </head>
   <body>
+    <main>
+      <h1 class="text-center"> PIG DICE GAME</h1>
+      <br/><br/>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-12">
+              <header>
+                <div class="row">
+                  <div class="col-md-10 col-md-offset-2">
+                    <div class="col-md-4">
+                      <button type="button" class="btn btn-default btn-sm" id="new-game-button"><span class="glyphicon glyphicon-plus-sign"></span> New Game</button>
+                    </div>
+                    <div class="col-md-4">
+                      <button type="button" class="btn btn-success btn-sm" id="roll-dice-button"><span class="glyphicon glyphicon-refresh"></span> Roll Dice</button>
+                    </div>
+                    <div class="col-md-4">
+                      <button type="button" class="btn btn-warning btn-sm" id="hold-play-button"><span class="glyphicon glyphicon-download-alt"></span> Pass Turn</button>
+                    </div>
+                </div>
+              </div>
+              </header>
+              <br/>
+              <div class="row">
+                <div class="col-md-12">
+                <div class="col-md-5 player-one-side player-background">
+                  <div class="row player-one-sub active-player">
+                    <div class="col-md-12">
+                      <h1 class="text-center" id="player-text-0">Player 1</h1>
+                      <p class="text-center extra-lg-font" id="score-0"></p>
+                    </div>
+                  </div>
+                  <div class="row player-bottom-margin player-top-margin">
+                    <div class="col-md-8 col-md-offset-2 score-background">
+                      <p class="text-center text-bottom-margin text-top-margin">Current</p><p class="text-center text-bottom-margin" id="currentScore-0"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2 dice-side">
+                  <img class="dice-image" src="img/dice-1.png" alt="dice-image" style="height: 100%; width: 100%">
+                </div>
+                <div class="col-md-5 player-two-side player-background">
+                  <div class="row player-two-sub">
+                    <div class="col-md-12">
+                      <h1 class="text-center" id="player-text-1">Player 2</h1>
+                      <p class="text-center extra-lg-font" id="score-1"></p>
+                    </div>
+                  </div>
+                  <div class="row player-bottom-margin player-top-margin">
+                    <div class="col-md-8 col-md-offset-2 score-background">
+                      <p class="text-center text-bottom-margin text-top-margin">Current</p><p class="text-center text-bottom-margin" id="currentScore-1"></p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </main>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="index.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

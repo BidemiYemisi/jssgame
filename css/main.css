@@ -1,0 +1,28 @@
+body{
+  background-color: #F3D8D2
+}
+.player-background{
+  background-color: #FFFFFF;
+}
+
+.score-background{
+  background: #FC7379;
+}
+.extra-lg-font{
+  font-size: 90px;
+}
+.player-bottom-margin{
+  margin-bottom: 50px;
+}
+.player-top-margin{
+  margin-top: 50px;
+}
+.text-bottom-margin{
+  margin-bottom: 20px;
+}
+.text-top-margin{
+  margin-top: 20px;
+}
+.active-player{
+  background-color: #AADA58;
+}
